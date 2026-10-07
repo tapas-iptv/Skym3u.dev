@@ -84,7 +84,7 @@ async function loadFilesFromGitHub() {
 
     } catch (error) {
         console.error("Error:", error);
-        playlistContainer.innerHTML = `<p class="text-red-400 text-center py-6 text-sm sm:text-base">Could not load files. Please check your GitHub username, repository name, or folder path.</p>`;
+        playlistContainer.innerHTML = `<p class="text-red-400 text-center py-6 text-sm sm:text-base">Could not load files. Please check your Server or folder path.</p>`;
     }
 }
 
